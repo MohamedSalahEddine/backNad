@@ -1,6 +1,6 @@
 <?php
-    include('../inc/connection.php');
-    include('../inc/function.php');
+    include('inc/connection.php');
+    include('inc/function.php');
 
     $sql="";
     if(isset($_GET['categorie']) && $_GET['categorie']=="reunion"){
@@ -52,7 +52,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include('header.php');?>
+    <?php include('php/header.php');?>
     <div class="container">
         <div class="div_left">
             <div class="div_left_categorie">

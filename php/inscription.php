@@ -30,7 +30,7 @@
       $sql3= "INSERT INTO `membre` (`id_membre`, `pseudo`, `mdp`, `nom`, `prenom`, `email`, `civilite`, `statut`, `date_enregistrement`) VALUES (NULL, '".$pseudo."', '".$mdp."', '".$nom."', '".$prenom."', '".$email."', '".$civilite."', ".$statut_bool.", NOW())";
 
       mysqli_query($conn, $sql3);
-      header('Location: index.php');
+      header('Location: ../index.php');
          
      }elseif(in_array($Pseudos,$pseudosList)){
          echo "Ce pseudo est déjà utilisé";
