@@ -1,0 +1,241 @@
+.th{
+    background-color:gray;
+    color:white;
+}
+
+*{
+    font-family: sans-serif;
+    
+}
+
+.roww{
+    background-color: aqua;
+}
+
+.div_salle{
+    margin-bottom: 100px;
+    width: 32%;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgb(238, 235, 235);
+}
+.div_salle:hover{
+    background-color: rgb(238, 235, 235);
+}
+
+.div_right{
+    
+    width: 100%;
+}
+
+
+td{
+    padding:20px;
+    border:1px solid darkgray;
+
+}
+
+#Adresse{
+    height: 100px;
+}
+
+.div_form > form{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+table{
+    border:1px solid gray;
+   border-collapse: collapse;
+}
+
+.div_form_gauche, .div_form_droite{
+    display: flex;
+    flex-direction: column;
+}
+
+
+input, select{
+    width:300px;
+    height:25px;
+    margin-bottom:50px;
+}
+
+textarea{
+    margin-bottom:50px;
+}
+
+.sub{
+    background-color: lightblue;
+    color: white;
+    width: 100px;
+    height: 25px;
+
+}
+
+.div_form2>form{
+    display:flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.div_form2_gauche, .div_form2_droite{
+    display: flex;
+    flex-direction: column;
+}
+
+.select2, .sel{
+    width: 500px;
+    height:25px;
+}
+
+.champs{
+    display:flex;
+    
+}
+
+.hide{
+    display: none;
+}
+
+.div1{
+    margin-bottom: 25px;
+}
+
+.titre{
+    color: rgb(37, 37, 231);
+    font-size:20px;
+    margin-right:20px;
+    font-weight: bold;
+}
+.prix{
+    font-weight: bold;
+    margin-left: 35px;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.div3{
+    display: flex;
+    font-size: 12px;
+    width: fit-content;
+}
+.info{
+    padding: 15px 5px;
+    
+}
+.span_rating{
+    color: brown;
+}
+.span_search{
+    margin-left: 70px;
+    color: rgb(37, 37, 231);
+}
+
+
+/****************************************************************/
+
+
+
+.container{
+    display:flex;
+    
+}
+
+button{
+    border: 1px solid lightgray;
+    padding:10px;
+    width:150px;
+    background-color: white;
+    
+}
+
+.div_left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    
+}
+
+.div_left>div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+/*******************************************************fiche produit*/
+.ap{
+    margin-bottom: 20px;
+}
+.fp_div2_gauche{
+    width: 70%;
+}
+
+.btn_reserver{
+    background-color: #60b061;
+    position: absolute;
+    right: 40px;
+    padding: 5px 20px;
+    color: white;
+}
+
+.st{
+    color: #b97781;
+}
+
+.div_autre{
+    width: 20%;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.img_70{
+    width: 90%;
+}
+
+.container_fp{
+    display: flex;
+    flex-direction: column;
+}
+
+.tit{
+    margin-right: 15px;
+}
+
+.fp_div1{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.fp_div2{
+    display: flex;
+    margin-bottom: 60px;
+}
+.fp_div2_gauche{
+    width: 100%;
+}
+.fp_div2_droite{
+    width: 60%;
+}
+.fp_div3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.fp_div4{
+    margin: auto;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
